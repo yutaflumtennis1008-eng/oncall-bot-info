@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>内視鏡オンコールBot</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>内視鏡オンコールBot</h1>
+
+  <p>消化器内科の内視鏡オンコール（夜間・休日の待機）の担当表を作るための LINE Bot です。
+  管理者が自分の診療科の業務のために運用しており、登録した少人数の医師だけが使います。一般の方向けのサービスではありません。</p>
+
+  <h2>できること</h2>
+  <ul>
+    <li>医師が LINE から、担当できない日（NG日）や当直・日直の日を入力する</li>
+    <li>入力をもとにオンコール表を作り、LINE で知らせる</li>
+  </ul>
+
+  <h2>Google アカウントの使い方</h2>
+  <p>Google Apps Script で動いています。管理者本人の Google アカウントで、管理者のスプレッドシート（入力内容と表の保存）、Google ドライブ（表の PDF の保存）、Google カレンダー（祝日の取得）を使います。
+  ほかの人の Google アカウントやデータにはアクセスしません。</p>
+
+  <p><a href="privacy.html">プライバシーポリシー</a></p>
+</main>
+</body>
+</html>
